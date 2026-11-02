@@ -1,0 +1,19 @@
+name: Build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      examples:
+        description: all, an example directory name, or a repo-relative path
+        default: all
+jobs:
+  build:
+    uses: waveshareteam/esp32-repo-template/.github/workflows/build.yml@feat/board-manager
+    with:
+      examples: ${{ inputs.examples || 'all' }}
+      template_ref: feat/board-manager
+    permissions:
+      contents: write
+    secrets: inherit

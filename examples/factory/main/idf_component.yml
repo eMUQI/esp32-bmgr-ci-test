@@ -1,0 +1,3 @@
+dependencies:
+  idf: ">=5.5"
+  waveshare/waveshare_boards: "0.1.3"
