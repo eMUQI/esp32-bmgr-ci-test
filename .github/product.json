@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/waveshareteam/esp32-repo-template/feat/board-manager/schema/product.schema.json",
-  "product": "ESP32-S3-Touch-AMOLED-1.75C",
-  "product_url": "https://www.waveshare.com/esp32-s3-touch-amoled-1.75c.htm",
+  "product": "ESP32-S3-Touch-AMOLED-2.16",
+  "product_url": "https://www.waveshare.com/esp32-s3-touch-amoled-2.16.htm",
   "tier": 1,
   "target": "esp32s3",
   "esp_idf": { "versions": ["v5.5.5", "v6.1"] },
   "factory_firmware": { "esp_idf": "v6.1" },
-  "board_manager": { "board": "esp32_s3_touch_amoled_1_75c" }
+  "board_manager": { "board": "esp32_s3_touch_amoled_2_16" }
 }
