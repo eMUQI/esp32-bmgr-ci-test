@@ -10,10 +10,10 @@ on:
         default: all
 jobs:
   build:
-    uses: waveshareteam/esp32-repo-template/.github/workflows/build.yml@feat/board-manager
+    uses: waveshareteam/esp32-repo-template/.github/workflows/build.yml@ci/unpin-bmgr-assist
     with:
       examples: ${{ inputs.examples || 'all' }}
-      template_ref: feat/board-manager
+      template_ref: ci/unpin-bmgr-assist
     permissions:
       contents: write
     secrets: inherit
